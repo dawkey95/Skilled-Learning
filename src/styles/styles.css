@@ -56,6 +56,10 @@ header {
   @apply w-full object-cover mt-[46px];
 }
 
+.mobile-img {
+  @apply block md:hidden;
+}
+
 /* content */
 .content-section {
   @apply bg-gradient-to-b from-gradient3-0 to-gradient3-1;
@@ -120,20 +124,12 @@ header {
 
 /* header */
 header {
-  @apply mx-4 mt-4 flex flex-row justify-between;
-}
-
-.logo {
-  @apply text-[1.75rem] font-extrabold leading-[2.1875rem] text-yankee-blue;
-}
-
-.header-btn {
-  @apply text-[1rem] leading-[1.75rem] rounded-[28px] px-6 pt-[9px] pb-[11px] bg-yankee-blue font-bold text-snow;
+  @apply md:mx-10 md:mt-6;
 }
 
 /* section */
 .section-container {
-  @apply mt-[38px] mx-4;
+  @apply md:flex md:flex-col md:mt-[99px] md:ml-10 md:mr-0;;
 }
 
 .section-title {
@@ -148,8 +144,8 @@ header {
   @apply bg-gradient-to-b from-gradient1-0 to-gradient1-1 text-snow font-bold text-[1rem] py-[15px] px-[38px] rounded-[31.5px];
 }
 
-.hero-image {
-  @apply w-full object-cover mt-[46px];
+.tablet-img {
+  @apply hidden md:block lg:hidden;
 }
 
 /* content */
@@ -195,7 +191,7 @@ header {
 
 /* footer */
 .footer-container {
-  @apply bg-yankee-blue flex flex-row justify-between items-center py-9;
+  @apply bg-yankee-blue flex flex-row justify-between items-center md:px-10 md:py-9;
 }
 
 .footer-logo {
@@ -204,4 +200,21 @@ header {
 
 .footer-btn {
   @apply bg-gradient-to-b from-gradient2-0 to-gradient2-1 rounded-[28px] text-snow font-bold text-[1rem] leading-[28px] py-[10px] px-6 mr-4;
+}
+
+/**
+*
+*
+-------------------------------------- TABLET ----------------------------------------------
+* 
+*
+*/
+
+/* section */
+.section-container {
+  @apply md:flex md:flex-row mt-[38px] mx-4;
+}
+
+.desktop-img {
+  @apply hidden lg:block;
 }
