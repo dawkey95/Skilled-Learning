@@ -13,6 +13,7 @@ module.exports = {
       },
       gradientColorStops: {
         gradient1: ["#FF6F48 0%", "#F02AA6 100%"],
+        gradient2: ["#4851FF 0%", "#F02AA6 100%"],
       },
 
       fontFamily: {

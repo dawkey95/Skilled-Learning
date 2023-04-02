@@ -41,4 +41,17 @@ header {
   @apply w-full object-cover mt-[46px];
 }
 
+/* footer */
+.footer-container {
+  @apply bg-yankee-blue flex flex-row justify-between items-center py-9;
+}
+
+.footer-logo {
+  @apply text-snow text-[1.75rem] leading-[2.1875rem] font-extrabold ml-4;
+}
+
+.footer-btn {
+  @apply bg-gradient-to-b from-gradient2-0 to-gradient2-1 rounded-[28px] text-snow font-bold text-[1rem] leading-[28px] py-[10px] px-6 mr-4;
+}
+
 /* ---------------------- TABLET ---------------------- */
