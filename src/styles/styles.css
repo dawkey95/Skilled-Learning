@@ -2,10 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-/* ---------------------- GENERAL ---------------------- */
+/**
+*
+*
+-------------------------------------- GENERAL ----------------------------------------------
+* 
+*
+*/
+
 body {
   @apply font-sans;
 }
+
+/**
+*
+*
+-------------------------------------- MOBILE ----------------------------------------------
+* 
+*
+*/
 
 /* header */
 header {
@@ -67,7 +82,7 @@ header {
 }
 
 .card-image {
-  @apply absolute -top-6
+  @apply absolute -top-6;
 }
 
 .card-title {
@@ -95,4 +110,98 @@ header {
   @apply bg-gradient-to-b from-gradient2-0 to-gradient2-1 rounded-[28px] text-snow font-bold text-[1rem] leading-[28px] py-[10px] px-6 mr-4;
 }
 
-/* ---------------------- TABLET ---------------------- */
+/**
+*
+*
+-------------------------------------- TABLET ----------------------------------------------
+* 
+*
+*/
+
+/* header */
+header {
+  @apply mx-4 mt-4 flex flex-row justify-between;
+}
+
+.logo {
+  @apply text-[1.75rem] font-extrabold leading-[2.1875rem] text-yankee-blue;
+}
+
+.header-btn {
+  @apply text-[1rem] leading-[1.75rem] rounded-[28px] px-6 pt-[9px] pb-[11px] bg-yankee-blue font-bold text-snow;
+}
+
+/* section */
+.section-container {
+  @apply mt-[38px] mx-4;
+}
+
+.section-title {
+  @apply text-yankee-blue font-extrabold text-[2.5rem] leading-[3.125rem] mb-[26px];
+}
+
+.section-details {
+  @apply text-roman-silver font-medium text-[1rem] leading-[1.625rem] mb-6;
+}
+
+.section-btn {
+  @apply bg-gradient-to-b from-gradient1-0 to-gradient1-1 text-snow font-bold text-[1rem] py-[15px] px-[38px] rounded-[31.5px];
+}
+
+.hero-image {
+  @apply w-full object-cover mt-[46px];
+}
+
+/* content */
+.content-section {
+  @apply bg-gradient-to-b from-gradient3-0 to-gradient3-1;
+}
+
+.content-container {
+  @apply flex flex-col gap-10 mx-4 mb-[80px];
+}
+
+.content-header {
+  @apply bg-gradient-to-b from-gradient1-0 to-gradient1-1 rounded-[10px] pt-6 pb-8 px-7;
+}
+
+.content-title {
+  @apply text-snow text-[1.5rem] leading-[2rem] font-extrabold;
+}
+
+.card-container {
+  @apply flex flex-col gap-10;
+}
+
+.card-body {
+  @apply relative bg-snow pl-4 pb-8 rounded-[10px];
+}
+
+.card-image {
+  @apply absolute -top-6;
+}
+
+.card-title {
+  @apply text-yankee-blue text-[1.25rem] leading-[1.5625rem] font-extrabold mb-4 pt-14;
+}
+
+.card-details {
+  @apply text-roman-silver text-[1rem] leading-[1.625rem] font-medium mb-6;
+}
+
+.card-btn {
+  @apply text-sas-socks text-[1.125rem] leading-[1.75rem] font-bold;
+}
+
+/* footer */
+.footer-container {
+  @apply bg-yankee-blue flex flex-row justify-between items-center py-9;
+}
+
+.footer-logo {
+  @apply text-snow text-[1.75rem] leading-[2.1875rem] font-extrabold ml-4;
+}
+
+.footer-btn {
+  @apply bg-gradient-to-b from-gradient2-0 to-gradient2-1 rounded-[28px] text-snow font-bold text-[1rem] leading-[28px] py-[10px] px-6 mr-4;
+}
