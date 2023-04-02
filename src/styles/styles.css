@@ -128,7 +128,7 @@ header {
 }
 
 /* section */
-/* this section not responding to changes */
+/* this section not responding to changes so need figure out issue here*/
 .section-container {
   @apply md:flex md:flex-col md:mt-[99px] md:ml-10 md:mr-0;;
 }
