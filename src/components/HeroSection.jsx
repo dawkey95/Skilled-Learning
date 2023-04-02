@@ -12,7 +12,7 @@ const HeroSection = () => {
         <button className="section-btn">Get Started</button>
       </div>
       <div className="hero-image">
-        <img src="/public/images/image-hero-mobile.png" alt="" />
+        <img src="/images/image-hero-mobile.png" alt="" />
       </div>
     </section>
   );
