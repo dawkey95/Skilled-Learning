@@ -2,3 +2,43 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ---------------------- GENERAL ---------------------- */
+body {
+  @apply font-sans;
+}
+
+/* header */
+header {
+  @apply mx-4 mt-4 flex flex-row justify-between;
+}
+
+.logo {
+  @apply text-[1.75rem] font-extrabold leading-[2.1875rem] text-yankee-blue;
+}
+
+.header-btn {
+  @apply text-[1rem] leading-[1.75rem] rounded-[28px] px-6 pt-[9px] pb-[11px] bg-yankee-blue font-bold text-snow;
+}
+
+/* section */
+.section-container {
+  @apply mt-[38px] mx-4;
+}
+
+.section-title {
+  @apply text-yankee-blue font-extrabold text-[2.5rem] leading-[3.125rem] mb-[26px];
+}
+
+.section-details {
+  @apply text-roman-silver font-medium text-[1rem] leading-[1.625rem] mb-6;
+}
+
+.section-btn {
+  @apply bg-gradient-to-b from-gradient1-0 to-gradient1-1 text-snow font-bold text-[1rem] py-[15px] px-[38px] rounded-[31.5px];
+}
+
+.hero-image {
+  @apply w-full object-cover mt-[46px];
+}
+
+/* ---------------------- TABLET ---------------------- */

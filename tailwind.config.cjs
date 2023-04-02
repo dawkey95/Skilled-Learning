@@ -5,11 +5,18 @@ module.exports = {
     extend: {
       colors: {
         "dark-blue=gray": "#666CA3",
-        "yankee-blue": "#666CA3",
+        "yankee-blue": "#13183F",
         snow: "#FFFFFF",
         "roman-silver": "#83869A",
         "carnation-pink": "#FFA7C3",
         "sas-socks": "#F74780",
+      },
+      gradientColorStops: {
+        gradient1: ["#FF6F48 0%", "#F02AA6 100%"],
+      },
+
+      fontFamily: {
+        sans: ["Plus Jakarta Sans", "sans-serif"],
       },
     },
   },
