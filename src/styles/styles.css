@@ -83,11 +83,11 @@ header {
 *
 */
 .content-section {
-  @apply bg-gradient-to-b from-gradient3-1 to-gradient3-0;
+  @apply bg-gradient-to-b from-gradient3-0 to-gradient3-1;
 }
 
 .content-container {
-  @apply flex flex-col gap-10 mx-4 pb-[80px];
+  @apply flex flex-col gap-10 mx-4 pb-[80px] md:grid md:grid-cols-2;
 }
 
 .content-header {
