@@ -90,7 +90,7 @@ header {
 }
 
 .content-container {
-  @apply flex flex-col gap-10 mx-4 pb-[80px] md:grid md:grid-cols-2 md:mx-10 lg:mx-[165px] lg:pb-[140px];
+  @apply flex flex-col gap-10 mx-4 pb-[80px] md:grid md:grid-cols-2 md:mx-10 lg:grid-cols-3 lg:gap-y-14 lg:gap-x-[30px] lg:mx-[165px] lg:pb-[140px];
 }
 
 .content-title {
