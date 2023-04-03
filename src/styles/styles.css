@@ -14,6 +14,10 @@ body {
   @apply font-sans;
 }
 
+main {
+  @apply md:relative overflow-hidden;
+}
+
 /**
 *
 *
@@ -22,17 +26,16 @@ body {
 *
 */
 
-/* header */
 header {
-  @apply mx-4 mt-4 flex flex-row justify-between md:mt-6 md:mx-10 md:mb-[68px];
+  @apply z-[2000] mx-4 mt-4 flex flex-row justify-between md:mt-6 md:mx-10 md:mb-[68px];
 }
 
 .logo {
-  @apply text-[1.75rem] font-extrabold leading-[2.1875rem] text-yankee-blue;
+  @apply text-[1.75rem] font-extrabold leading-[2.1875rem] text-yankee-blue lg:mt-[38.75px] lg:ml-[165.79px];
 }
 
 .header-btn {
-  @apply text-[1rem] leading-[1.75rem] rounded-[28px] px-6 pt-[9px] pb-[11px] bg-yankee-blue font-bold text-snow;
+  @apply text-[1rem] leading-[1.75rem] rounded-[28px] px-6 pt-[9px] pb-[11px] bg-yankee-blue font-bold text-snow lg:mt-6 lg:mr-[165px];
 }
 
 /**
@@ -44,7 +47,7 @@ header {
 */
 
 .section-container {
-  @apply mt-[38px] mx-4 md:ml-10 md:flex md:flex-row;
+  @apply mt-[38px] mx-4 md:mb-[186px] md:ml-10 md:flex md:flex-row md:w-1/2;
 }
 
 .section-title {
@@ -60,7 +63,7 @@ header {
 }
 
 .hero-image {
-  @apply w-full object-cover mt-[46px];
+  @apply md:flex md:absolute md:top-[-93px] md:left-[380px] md:z-[1000] md:w-full;
 }
 
 .mobile-img {
@@ -87,7 +90,7 @@ header {
 }
 
 .content-container {
-  @apply flex flex-col gap-10 mx-4 pb-[80px] md:grid md:grid-cols-2 md:mx-10;
+  @apply flex flex-col gap-10 mx-4 pb-[80px] md:grid md:grid-cols-2 md:mx-10 lg:mx-[165px] lg:pb-[140px];
 }
 
 .content-title {
@@ -122,13 +125,13 @@ header {
 *
 */
 .footer-container {
-  @apply bg-yankee-blue flex flex-row justify-between items-center py-9 md:px-10;
+  @apply bg-yankee-blue flex flex-row justify-between items-center py-9 md:px-10 lg:px-[165px];
 }
 
 .footer-logo {
-  @apply text-snow text-[1.75rem] leading-[2.1875rem] font-extrabold ml-4;
+  @apply text-snow text-[1.75rem] leading-[2.1875rem] font-extrabold ml-4 lg:my-[46px];
 }
 
 .footer-btn {
-  @apply bg-gradient-to-b from-gradient2-0 to-gradient2-1 rounded-[28px] text-snow font-bold text-[1rem] leading-[28px] py-[10px] px-6 mr-4;
+  @apply bg-gradient-to-b from-gradient2-0 to-gradient2-1 rounded-[28px] text-snow font-bold text-[1rem] leading-[28px] py-[10px] px-6 mr-4 lg:my-8;
 }
