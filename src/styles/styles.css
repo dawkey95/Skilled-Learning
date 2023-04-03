@@ -47,7 +47,7 @@ header {
 */
 
 .section-container {
-  @apply mt-[38px] mx-4 md:mb-[186px] md:ml-10 md:flex md:flex-row md:w-1/2 lg:ml-[165px] lg:mb-[226px];
+  @apply mt-[38px] mx-4 md:mb-[186px] md:ml-10 md:flex md:flex-row md:w-1/3 lg:ml-[165px] lg:mb-[226px] lg:mt-[185px];
 }
 
 .section-title {
@@ -63,7 +63,7 @@ header {
 }
 
 .hero-image {
-  @apply md:flex md:absolute md:top-[-93px] md:left-[380px] md:z-[1000] md:w-full;
+  @apply md:flex md:absolute md:top-[-93px] md:left-[380px] md:z-[1000] md:w-full lg:top-[-146.13px] lg:left-[784px];
 }
 
 .mobile-img {
