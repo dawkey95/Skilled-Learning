@@ -24,7 +24,7 @@ body {
 
 /* header */
 header {
-  @apply mx-4 mt-4 flex flex-row justify-between;
+  @apply mx-4 mt-4 flex flex-row justify-between md:mt-6 md:mx-10 md:mb-[68px];
 }
 
 .logo {
@@ -44,7 +44,7 @@ header {
 */
 
 .section-container {
-  @apply mt-[38px] mx-4;
+  @apply mt-[38px] mx-4 md:ml-10 md:flex md:flex-row;
 }
 
 .section-title {
@@ -130,7 +130,7 @@ header {
 *
 */
 .footer-container {
-  @apply bg-yankee-blue flex flex-row justify-between items-center py-9;
+  @apply bg-yankee-blue flex flex-row justify-between items-center py-9 md:px-10;
 }
 
 .footer-logo {
