@@ -47,15 +47,15 @@ header {
 */
 
 .section-container {
-  @apply mt-[38px] mx-4 md:mb-[186px] md:ml-10 md:flex md:flex-row md:w-1/2;
+  @apply mt-[38px] mx-4 md:mb-[186px] md:ml-10 md:flex md:flex-row md:w-1/2 lg:ml-[165px] lg:mb-[226px];
 }
 
 .section-title {
-  @apply text-yankee-blue font-extrabold text-[2.5rem] leading-[3.125rem] mb-[26px];
+  @apply text-yankee-blue font-extrabold text-[2.5rem] leading-[3.125rem] mb-[26px] lg:text-[3.5rem] lg:leading-[71px];
 }
 
 .section-details {
-  @apply text-roman-silver font-medium text-[1rem] leading-[1.625rem] mb-6;
+  @apply text-roman-silver font-medium text-[1rem] leading-[1.625rem] mb-6 lg:text-[1.125rem] lg:leading-[1.75rem];
 }
 
 .section-btn {

@@ -12,11 +12,11 @@ const HeroImage = () => {
           src="/images/image-hero-tablet.png"
           alt=""
         />
-        {/* <img
+        <img
           className="desktop-img"
           src="/images/image-hero-desktop.png"
           alt=""
-        /> */}
+        />
       </div>
     </>
   );
